@@ -19,7 +19,7 @@ var gaugeData = [
   title: { text: "Belly Button Washing Frequency" },
   type: "indicator",
   mode: "gauge+number+delta",
-  delta: { reference: 9, increasing: {color: "green"} },
+  delta: {increasing: {color: "green"} },
   gauge: {
     axis: { range: [0, 10]},
     steps: [
